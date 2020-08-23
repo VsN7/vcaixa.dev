@@ -1,6 +1,6 @@
 # vcaixa.dev
 
-.![vcaixa](https://www.akamai.com/br/pt/multimedia/images/video/akamai-api-video-thumbnail.jpg?imwidth=1366)
+.![vcaixa](https://cdn.startupi.com.br/wp-content/uploads/2018/04/api.png)
 
 ## Descrição do projeto
 
