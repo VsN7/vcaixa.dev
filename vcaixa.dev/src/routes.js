@@ -26,10 +26,10 @@ routes.delete('/categoria/:id', CategoriaController.destroy);
 routes.get('categoria/id/:id', CategoriaController.buscarCategoriaPorId);
 
 routes.get('/movimentacao', MovimentacaoController.index);
-routes.get('/movimentacao/data/:data', MovimentacaoController.listarResumoCaixaPorData);
+routes.get('/movimentacao/:data', MovimentacaoController.listarResumoCaixaPorData);
 routes.post('/movimentacao', MovimentacaoController.store);
 routes.put('/movimentacao/:id', MovimentacaoController.update);
 routes.delete('/movimentacao/:id', MovimentacaoController.destroy);
-routes.get('/movimentacao/:id', MovimentacaoController.show);
+routes.get('/movimentacao/id/:id', MovimentacaoController.show);
 
 module.exports = routes;
