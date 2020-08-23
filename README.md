@@ -1,6 +1,6 @@
 # vcaixa.dev
 
-.![vcaixa.dev](https://www.akamai.com/br/pt/multimedia/images/video/akamai-api-video-thumbnail.jpg?imwidth=1366)
+.![vcaixa](https://www.akamai.com/br/pt/multimedia/images/video/akamai-api-video-thumbnail.jpg?imwidth=1366)
 
 ## Descrição do projeto
 
@@ -83,9 +83,9 @@ Link para a instação do Postman: https://www.postman.com/downloads/
 - get 127.0.0.1:3000/api/movimentacao/:id
 
 #### Legenda
- get - busca por registros
- post - criação de novos registros
- put - edição de registros
- delete - exclusão de registros
+- get - busca por registros
+- post - criação de novos registros
+- put - edição de registros
+- delete - exclusão de registros
 
 Observação: Caso queira consultar a o serviço remotamente basta substituir o "127.0.0.1:3000" por "https://vcaixa-dev.herokuapp.com"
