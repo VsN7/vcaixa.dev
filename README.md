@@ -27,17 +27,18 @@ Link para a instalação do Git: https://git-scm.com/book/pt-br/v2/Come%C3%A7and
 ## Instalação do projeto
 
 - Primeiramente é importante verificar se o Node está instalado corretamente na maquina, caso não esteja, segue abaixo o link para a sua instalação:
+
 Link para a instalação do Node: https://nodejs.org/pt-br/download/package-manager/
 
-- Abra o terminal apertanto as teclas "Windows + R" e digite "CMD" ou procure por "CMD" no campo de pesquisa. (caso esteja utilizando o Linux, aperte as teclas "Ctrl + Alt + T", ou digite "terminal no campo de pesquisa" ).
+- Abra o terminal apertanto as teclas "Windows + R" e digite "CMD" ou procure por "CMD" no campo de pesquisa. (caso esteja utilizando o Linux, aperte as teclas "Ctrl + Alt + T", ou digite "terminal" no campo de pesquisa ).
 
 .![como abrir o terminal](https://uploaddeimagens.com.br/images/002/844/468/full/prompt.PNG?1598196010)
 
-- Para aqueles que opitaram por instalar via URL disponibilizada no GitHub e estão com o Git devidamente configurado, basta digitar no terminal o comando "git clone " e logo a frente informar a URL, após isso entre no diretório do projeto. Quem opitou por abaixar o arquivo zipado deve descompactalo e abrir o terminal no seu diretório.
+- Para aqueles que opitaram por instalar via URL disponibilizada no GitHub e estão com o Git devidamente configurado, basta digitar no terminal o comando "git clone " e logo a frente informar a URL, após isso entre no diretório do projeto. Quem opitou por baixar o arquivo zipado deve descompacta-lo e abrir o terminal no seu diretório.
 
 .![primeiro passo terminal](https://uploaddeimagens.com.br/images/002/844/482/original/download.png?1598196452)
 
-- Digite o comando "npm install", isso irá criar instalar uma diretório chamado "node_modules", aonde estará guardada todas as dependencias do projeto (esse processo pode demorar um pouco).
+- Digite o comando "npm install", isso irá criar um diretório chamado "node_modules", aonde estará guardada todas as dependencias do projeto (esse processo pode demorar um pouco).
 
 .![node_modules](https://uploaddeimagens.com.br/images/002/844/490/full/node_modules.png?1598197156)
 
@@ -48,6 +49,7 @@ Link para a instalação do Node: https://nodejs.org/pt-br/download/package-mana
 ## Como utilizar a API
 
 - Recomendo que utilize a aplicação Postman para melhor entendimento da API, também é possível verificar as requisições via URL no proprio navegador (exemplo: Google Chrome).
+
 Link para a instação do Postman: https://www.postman.com/downloads/
 
 - Com o Postman aberto basta selecionar o tipo da requisição e informar a rota, logo após clique em "Send", caso tudo seja informado corretamente, os dados deverão ser exibidos logo abaixo no formato JSON (também é possivel consultar a API sem que a mesma esteja funcionando localmente substituindo a rota da imagem pela URL: https://vcaixa-dev.herokuapp.com/api/movimentacao).
@@ -76,11 +78,11 @@ Link para a instação do Postman: https://www.postman.com/downloads/
 - get 127.0.0.1:3000/api/categoria/id/:id
 
 - get 127.0.0.1:3000/api/movimentacao
-- get 127.0.0.1:3000/api/movimentacao/data/:data
+- get 127.0.0.1:3000/api/movimentacao/:data
 - post 127.0.0.1:3000/api/movimentacao
 - put 127.0.0.1:3000/api/movimentacao/:id
 - delete 127.0.0.1:3000/api/movimentacao/:id
-- get 127.0.0.1:3000/api/movimentacao/:id
+- get 127.0.0.1:3000/api/movimentacao/id/:id
 
 #### Legenda
 - get - busca por registros
